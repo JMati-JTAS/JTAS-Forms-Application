@@ -4,7 +4,8 @@
     "Dialog_1": 1,
     "ExpandMenu": 4,
     "Header": 2,
-    "Panel": 3
+    "Panel": 3,
+    "Panel_1": 3
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -55,7 +56,7 @@
     "lblTitle": 11,
     "LeftContainer": 7,
     "MiddleContainer": 34,
-    "Panel": 14,
+    "Panel_1": 57,
     "PanelContentContainer": 23,
     "PanelHeaderContainer": 19,
     "PanelRootContainer_1": 16,
@@ -98,9 +99,9 @@
     "groupContainer": 1,
     "htmlViewer": 0,
     "icon": 3,
-    "image": 5,
+    "image": 6,
     "label": 2,
-    "rectangle": 6
+    "rectangle": 5
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -151,6 +152,7 @@
     "LeftContainer": {},
     "MiddleContainer": {},
     "Panel": {},
+    "Panel_1": {},
     "PanelContentContainer": {},
     "PanelHeaderContainer": {},
     "PanelRootContainer_1": {},
@@ -253,6 +255,7 @@
     "LeftContainer": 19,
     "MiddleContainer": 4,
     "Panel": 0,
+    "Panel_1": 0,
     "PanelContentContainer": 34,
     "PanelHeaderContainer": 30,
     "PanelRootContainer_1": 27,
@@ -268,10 +271,11 @@
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.9187793,
+
     "ControlCount": {
       "1861a084cc4e4488af64342bd9cfaacd": 1,
       "2a0856e7dbf14ff18254d91dff568093": 2,
-      "3f46ec493b28471eb81c1628bf85436b": 1,
+      "3f46ec493b28471eb81c1628bf85436b": 2,
       "989d71b8f6cd4a2c87952651e6ca9510": 1,
       "gallery": 3,
       "galleryTemplate": 3,
@@ -285,7 +289,9 @@
       "rectangle": 2,
       "screen": 1
     },
+
     "DeserializationLoadTime": 1.306025
+
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

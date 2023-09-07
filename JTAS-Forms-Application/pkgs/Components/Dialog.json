@@ -4930,7 +4930,8 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638296835471648215",
+
+    "LastModifiedTimestamp": "638296833495609955",
     "Name": "Dialog",
     "Rules": [
       {
@@ -5242,7 +5243,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638296835471648215",
+  "LastModifiedTimestamp": "638296833495609955",
   "Name": "2a0856e7dbf14ff18254d91dff568093",
   "OverridableProperties": {},
   "SourceLibraryId": "d4dc4084-5650-44de-9dba-f5f4d8d148ec",

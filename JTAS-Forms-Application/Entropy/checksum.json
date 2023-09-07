@@ -4,6 +4,7 @@
     "IsLocalBuild": false
   },
   "ClientPerFileChecksums": {
+
     "AppCheckerResult.sarif": "C8_gdAGXDF0FhO7kXjk0FTgUKyVcArE+/gMUvGAa+oSExI=",
     "Components\\14.json": "C8_i078EXLmWM0jrOu+5n00sTZ0TUbfBQlRtjbM0CvtQ0k=",
     "Components\\30.json": "C8_O53cW33tHi3PYi+WmVODBViWZArgZQHjbs7NZLi1onw=",
