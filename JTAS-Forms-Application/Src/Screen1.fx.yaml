@@ -11,8 +11,7 @@ Screen1 As screen:
     Panel_1 As Panel:
         Fill: =Panel_1.OverlayColor
         Height: =742
-        Width: =500
-        X: =865
+        Width: =1365
         Y: =25
         ZIndex: =2
 
@@ -11338,7 +11337,6 @@ Screen1 As screen:
                 )
             , Name=IconName).Path
         Height: =768
-        OnReset: =Set(IsOpen, ExpandMenu_1.DefaultExpandValue)
         ZIndex: =8
 
     Header_1 As Header:
