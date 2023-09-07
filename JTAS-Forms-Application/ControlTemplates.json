@@ -28,6 +28,51 @@
     "TemplateDisplayName": "Button",
     "Version": "1.5.2"
   },
+  "Fluent Nav (1.1.29)": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.Nav",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.Nav",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Nav (1.1.29)",
+    "Version": "1.1.29"
+  },
+  "Fluent Persona (1.1.29) Preview": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.Persona",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.Persona",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Persona (1.1.29) Preview",
+    "Version": "1.1.29"
+  },
+  "Fluent Progress Indicator (1.1.29) Preview": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.ProgressIndicator",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.ProgressIndicator",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Progress Indicator (1.1.29) Preview",
+    "Version": "1.1.29"
+  },
   "gallery": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -183,5 +228,73 @@
     "Name": "screen",
     "OverridableProperties": {},
     "Version": "1.0"
+  },
+  "SubwayNav (1.1.29) Preview": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.SubwayNav",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.SubwayNav",
+    "OverridableProperties": {
+      "Steps": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Table",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Boolean",
+              "Name": "ItemDisabled",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "ItemKey",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "ItemLabel",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "ItemState",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "Boolean",
+              "Name": "ItemVisuallyDisabled",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "ParentItemKey",
+              "Type": []
+            }
+          ]
+        },
+        "Version": "1.334"
+      }
+    },
+    "PCFDynamicSchemaForIRRetrieval": {
+      "Steps": {
+        "DynamicSchema": "{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ItemKey\":{\"type\":\"string\"},\"ItemLabel\":{\"type\":\"string\"},\"ItemState\":{\"type\":\"string\"},\"ItemDisabled\":{\"type\":\"boolean\"},\"ItemVisuallyDisabled\":{\"type\":\"boolean\"},\"ParentItemKey\":{\"type\":\"string\"}}}}",
+        "PCFSkipValidation": false
+      }
+    },
+    "TemplateDisplayName": "SubwayNav (1.1.29) Preview",
+    "Version": "1.1.29"
   }
 }
