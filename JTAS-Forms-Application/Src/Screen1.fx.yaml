@@ -2,7 +2,14 @@ Screen1 As screen:
 
     Dialog_1 As Dialog:
         Fill: =Dialog_1.OverlayColor
-        Height: =768
-        Width: =1366
+        Height: =483
+        Width: =779
+        X: =585
+        Y: =285
         ZIndex: =1
+
+    Panel_1 As Panel:
+        Fill: =Panel_1.OverlayColor
+        Width: =1366
+        ZIndex: =2
 
