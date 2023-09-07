@@ -56,7 +56,6 @@
     "lblTitle": 11,
     "LeftContainer": 7,
     "MiddleContainer": 34,
-    "Panel": 14,
     "Panel_1": 57,
     "PanelContentContainer": 23,
     "PanelHeaderContainer": 19,
@@ -68,7 +67,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/07/2023 11:36:44",
+  "HeaderLastSavedDateTimeUTC": "09/07/2023 11:39:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -271,7 +270,8 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.9741181,
+    "AnalysisLoadTime": 0.9187793,
+
     "ControlCount": {
       "1861a084cc4e4488af64342bd9cfaacd": 1,
       "2a0856e7dbf14ff18254d91dff568093": 2,
@@ -289,7 +289,9 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.2745732
+
+    "DeserializationLoadTime": 1.306025
+
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
