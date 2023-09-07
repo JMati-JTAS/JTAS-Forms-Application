@@ -11338,7 +11338,6 @@ Screen1 As screen:
                 )
             , Name=IconName).Path
         Height: =768
-        OnReset: =Set(IsOpen, ExpandMenu_1.DefaultExpandValue)
         ZIndex: =8
 
     Header_1 As Header:

@@ -13,6 +13,20 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "button": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/button",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "button",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
+  },
   "Button": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -27,6 +41,66 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Button",
     "Version": "1.5.2"
+  },
+  "Fluent Calendar (1.1.29) Preview": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.Calendar",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.Calendar",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Calendar (1.1.29) Preview",
+    "Version": "1.1.29"
+  },
+  "Fluent Command Bar (1.1.29)": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.CommandBar",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.CommandBar",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Command Bar (1.1.29)",
+    "Version": "1.1.29"
+  },
+  "Fluent Details List (1.1.29)": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.FluentDetailsList",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.FluentDetailsList",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Details List (1.1.29)",
+    "Version": "1.1.29"
+  },
+  "Fluent Icon (1.1.29)": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/cat_PowerCAT.Icon",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "cat_PowerCAT.Icon",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Fluent Icon (1.1.29)",
+    "Version": "1.1.29"
   },
   "Fluent Nav (1.1.29)": {
     "CustomGroupControlTemplateName": "",
@@ -200,6 +274,20 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Label",
     "Version": "1.6.0"
+  },
+  "pcfDataField": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/pcfDataField",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "pcfDataField",
+    "OverridableProperties": {},
+    "Version": "1.4.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",

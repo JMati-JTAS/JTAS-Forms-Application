@@ -1,0 +1,337 @@
+Screen2 As screen:
+
+    "FluentDetailsList3 As 'Fluent Details List (1.1.29)'.pcfdataset":
+        columns_Items: |-
+            =Table(
+                {
+                    ColName: "MemberName",
+                    ColDisplayName: "Name",
+                    ColWidth: 200,
+                    ColSortable: true,
+                    ColIsBold: true,
+                    ColResizable: true
+                },{
+                     ColName: "EmployeeNo",
+                    ColDisplayName: "ID",
+                    ColWidth: 200,
+                    ColSortable: true,
+                    ColIsBold: true,
+                    ColResizable: true
+                },{
+                    ColName: "JGCID",
+                    ColDisplayName: "JGCID",
+                    ColWidth: 200,
+                    ColSortable: true,
+                    ColIsBold: true,
+                    ColResizable: true
+                },{
+                    ColName: "EmailAddress",
+                    ColDisplayName: "Email",
+                    ColWidth: 200,
+                    ColSortable: true,
+                    ColResizable: true
+                },{
+                    ColName: "{Link}",
+                    ColDisplayName: "Primary Contact",
+                    ColWidth: 200,
+                    ColSortable: true,
+                    ColSortBy: "_primarycontactid_value",
+                    ColResizable: true,
+                    ColCellType: "link"
+                }
+            )
+        Compact: =false
+        CurrentSortColumn: ="EmployeeNo"
+        CurrentSortDirection: |-
+            =If(ctxSortAsc,
+                'PowerCAT.FluentDetailsList.CurrentSortDirection'.Ascending,
+                'PowerCAT.FluentDetailsList.CurrentSortDirection'.Descending) 
+        DisplayMode: =DisplayMode.Edit
+        HeaderVisible: =true
+        Height: =314
+        InputEvent: =ctxGridEvent
+        Items: =SortByColumns('JTAS Members V2',ctxSortCol,If(ctxSortAsc,SortOrder.Ascending,SortOrder.Descending))
+        LargeDatasetPaging: =false
+        OnChange: |-
+            =If(Self.EventName="Sort", 
+            UpdateContext({
+                            ctxSortCol:Self.SortEventColumn,
+                            ctxSortAsc:If(Self.SortEventDirection='PowerCAT.FluentDetailsList.SortEventDirection'.Ascending,true,false)
+             })
+            );
+        PageSize: =10
+        RaiseOnRowSelectionChangeEvent: =true
+        SelectionAlwaysVisible: =true
+        SelectionType: ='PowerCAT.FluentDetailsList.SelectionType'.Multiple
+        SelectRowsOnFocus: =true
+        Width: =1099
+        X: =120
+        Y: =90
+        ZIndex: =1
+
+        Title3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Title"
+            FieldName: ="Title"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =1
+
+        MemberName3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="MemberName"
+            FieldName: ="MemberName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =2
+            ZIndex: =2
+
+        Role3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Role"
+            FieldName: ="Role"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =3
+            ZIndex: =3
+
+        EmailAddress3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="EmailAddress"
+            FieldName: ="EmailAddress"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =4
+            ZIndex: =4
+
+        Position3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Position"
+            FieldName: ="Position"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =5
+            ZIndex: =5
+
+        Status3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Status"
+            FieldName: ="rwaf"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =6
+            ZIndex: =6
+
+        Section3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Section"
+            FieldName: ="Section"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =7
+            ZIndex: =7
+
+        Department3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Department"
+            FieldName: ="Department"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =8
+            ZIndex: =8
+
+        JGCID3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="JGCID"
+            FieldName: ="JGCID"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =9
+            ZIndex: =9
+
+        EmployeeNo3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="EmployeeNo"
+            FieldName: ="EmployeeNo"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =10
+            ZIndex: =10
+
+        LastName3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="LastName"
+            FieldName: ="LastName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =11
+            ZIndex: =11
+
+        FirstName3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="FirstName"
+            FieldName: ="FirstName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =12
+            ZIndex: =12
+
+        MainCompany3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="MainCompany"
+            FieldName: ="MainCompany"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =13
+            ZIndex: =13
+
+        Team3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Team"
+            FieldName: ="Team"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =14
+            ZIndex: =14
+
+        Gender3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Gender"
+            FieldName: ="Gender"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =15
+            ZIndex: =15
+
+        Grade3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Grade"
+            FieldName: ="Grade"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =16
+            ZIndex: =16
+
+        EmploymentStatus3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="EmploymentStatus"
+            FieldName: ="EmploymentStatus"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =17
+            ZIndex: =17
+
+        MiddleName3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="MiddleName"
+            FieldName: ="MiddleName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =18
+            ZIndex: =18
+
+        BirthDate3 As pcfDataField.textualColumn:
+            FieldDisplayName: ="BirthDate"
+            FieldName: ="BirthDate"
+            FieldType: ="D"
+            FieldVariantName: ="textualColumn"
+            Order: =19
+            ZIndex: =19
+
+        "'Complete Address3' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Complete Address"
+            FieldName: ="CompleteAddress"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =21
+            ZIndex: =21
+
+        "'Emergency Name3' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Emergency Name"
+            FieldName: ="EmergencyName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =22
+            ZIndex: =22
+
+        "'Emergency Number3' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Emergency Number"
+            FieldName: ="EmergencyNumber"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =23
+            ZIndex: =23
+
+        "'Emergency Address3' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Emergency Address"
+            FieldName: ="EmergencyAddress"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =24
+            ZIndex: =24
+
+        "'Contact Number3' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Contact Number"
+            FieldName: ="ContactNumber"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =25
+            ZIndex: =25
+
+        "'Link to item1' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Link to item"
+            FieldName: ="{Link}"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =25
+            ZIndex: =26
+
+    "Calendar1 As 'Fluent Calendar (1.1.29) Preview'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =259
+        HighlightCurrentMonth: =true
+        ShowSixWeeksByDefault: =true
+        ShowWeekNumbers: =true
+        Width: =437
+        X: =180
+        Y: =509
+        ZIndex: =2
+
+    "CommandBar1 As 'Fluent Command Bar (1.1.29)'.pcfdataset":
+        DisplayMode: =DisplayMode.Edit
+        Height: =78
+        Width: =1144
+        X: =65
+        Y: =0
+        ZIndex: =3
+
+    Label1 As label:
+        Align: =Align.Center
+        Text: =FluentDetailsList3.TotalRecords & " record(s)  " & Text(CountRows(FluentDetailsList3.SelectedItems)+0) & " selected"
+        Width: =222
+        X: =920
+        Y: =420
+        ZIndex: =4
+
+    "Icon1 As 'Fluent Icon (1.1.29)'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        IconName: ="Next"
+        IconType: ='PowerCAT.Icon.IconType'.ActionButton
+        InputEvent: =
+        Width: =34
+        X: =1153
+        Y: =420
+        ZIndex: =5
+
+    "Icon1_1 As 'Fluent Icon (1.1.29)'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        IconName: ="Previous"
+        IconType: ='PowerCAT.Icon.IconType'.ActionButton
+        Width: =34
+        X: =868
+        Y: =425
+        ZIndex: =6
+
+    Button2 As button:
+        DisplayMode: =If(FluentDetailsList3 .HasNextPage,DisplayMode.Edit,DisplayMode.Disabled)
+        OnSelect: |-
+            =UpdateContext({ctxGridEvent:"LoadNextPage" & Text(Rand())})
+        Text: ="Button"
+        X: =1090
+        Y: =496
+        ZIndex: =7
+
+    Button2_1 As button:
+        DisplayMode: =If(FluentDetailsList3.HasPreviousPage,DisplayMode.Edit,DisplayMode.Disabled)
+        OnSelect: |-
+            =UpdateContext({ctxGridEvent:"LoadPreviousPage" & Text(Rand())})
+        Text: ="Button"
+        X: =760
+        Y: =496
+        ZIndex: =8
+

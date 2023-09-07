@@ -1,1 +1,24 @@
-{}
+{
+  "0b0843e8-b32b-41f9-9644-359d2bb5ac23": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/ase-v3/1.0.1653.3402/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://jgcgroup.sharepoint.com/sites/JTASInternalDataV2": {
+        "dataSources": {
+          "JTAS Members V2": {
+            "tableName": "0279195f-8fbb-475e-a66c-46cd53f49c07"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "JTAS Members V2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0b0843e8-b32b-41f9-9644-359d2bb5ac23"
+  }
+}
