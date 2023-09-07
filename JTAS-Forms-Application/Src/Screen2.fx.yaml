@@ -290,7 +290,8 @@ Screen2 As screen:
 
     Label1 As label:
         Align: =Align.Center
-        Text: =FluentDetailsList3.TotalRecords & " record(s)  " & Text(CountRows(FluentDetailsList3.SelectedItems)+0) & " selected"
+        Size: =8
+        Text: =FluentDetailsList3.TotalRecords & " record(s)  " & Text(CountRows(FluentDetailsList3.SelectedItems)+0) & " selected" & "| " &   FluentDetailsList3.PageNumber &"-"& FluentDetailsList3.TotalPages & " | " & RoundUp((FluentDetailsList3.TotalRecords / FluentDetailsList3.TotalPages),0)
         Width: =222
         X: =920
         Y: =420

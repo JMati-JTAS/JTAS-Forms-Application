@@ -1,0 +1,7 @@
+Screen3 As screen:
+
+    Panel_2 As Panel:
+        Fill: =Panel_2.OverlayColor
+        Width: =1366
+        ZIndex: =1
+

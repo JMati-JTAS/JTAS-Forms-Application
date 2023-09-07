@@ -67,7 +67,7 @@
         "Name": "htmlDropShadow",
         "Parent": "Header",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 56,
+        "PublishOrderIndex": 58,
         "Rules": [
           {
             "Category": "Data",
@@ -341,7 +341,7 @@
                 "Name": "imgBack",
                 "Parent": "LeftContainer",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 59,
+                "PublishOrderIndex": 61,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -655,7 +655,7 @@
                 "Name": "lblBack",
                 "Parent": "LeftContainer",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 60,
+                "PublishOrderIndex": 62,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -947,7 +947,7 @@
                 "Name": "imgLogo",
                 "Parent": "LeftContainer",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 61,
+                "PublishOrderIndex": 63,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -1302,7 +1302,7 @@
             "Name": "LeftContainer",
             "Parent": "HeaderContainer",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 58,
+            "PublishOrderIndex": 60,
             "Rules": [
               {
                 "Category": "Design",
@@ -1648,7 +1648,7 @@
             "Name": "lblTitle",
             "Parent": "HeaderContainer",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 62,
+            "PublishOrderIndex": 64,
             "Rules": [
               {
                 "Category": "Data",
@@ -2095,7 +2095,7 @@
                 "Name": "imgRight",
                 "Parent": "RightContainer",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 64,
+                "PublishOrderIndex": 66,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -2429,7 +2429,7 @@
             "Name": "RightContainer",
             "Parent": "HeaderContainer",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 63,
+            "PublishOrderIndex": 65,
             "Rules": [
               {
                 "Category": "Design",
@@ -2673,7 +2673,7 @@
         "Name": "HeaderContainer",
         "Parent": "Header",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 57,
+        "PublishOrderIndex": 59,
         "Rules": [
           {
             "Category": "Design",
